@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class DivService {
 	
-	public BigDecimal sum(String a, String b) {
+	public BigDecimal div(String a, String b) {
 		
 		BigDecimal number1 = new BigDecimal(a);
 		BigDecimal number2 = new BigDecimal(b);

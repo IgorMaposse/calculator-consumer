@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class MulService {
-	public BigDecimal sum(String a, String b) {
+	public BigDecimal mul(String a, String b) {
 		BigDecimal number1 = new BigDecimal(a);
 		BigDecimal number2 = new BigDecimal(b);
 		return number1.multiply(number2);
